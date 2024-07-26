@@ -1,0 +1,14 @@
+.text{
+    text-align: center;
+    color: skyblue;
+}
+
+.button{
+    color: rgb(241, 9, 183);
+    background-color: rgb(205, 186, 235);
+    border-radius: 15px;
+    padding: 10px 10px;
+    margin: 10px;
+    border-color: rgb(201, 105, 233);
+    
+}

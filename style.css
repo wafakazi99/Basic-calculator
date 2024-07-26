@@ -1,3 +1,7 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
 .text{
     text-align: center;
     color: skyblue;
@@ -5,10 +9,44 @@
 
 .button{
     color: rgb(241, 9, 183);
-    background-color: rgb(205, 186, 235);
-    border-radius: 15px;
-    padding: 10px 10px;
-    margin: 10px;
-    border-color: rgb(201, 105, 233);
-    
+    background-color: rgb(101, 224, 218);
+   height: 10vh;
+   width:3.5vw;
+    padding: 20px;
+    margin: 10px 10px;
+    border-color:2px solid black;
+    font-size: large;
+}
+.mx-auto{
+   margin: auto;
+}
+.m-w-20{
+    max-width: 20vw;
+}
+.bg-red{
+    background-color: rgb(255, 0, 255);
+    border-radius: 5px;
+}
+.felx{
+   display: flex;
+}
+.flex-col{
+    flex-direction:column;
+}
+.item-center{
+    align-items: center;   
+}
+.input{
+    padding: 10px;
+    margin: 10px 10px;
+  font-size: large;
+  
+}
+.bar{
+    background-color: rgb(255, 0, 255);
+    height: 10vh;
+    flex-direction:column;
+    padding: 10px;
+    margin: 10px 10px;
+    border-radius: 5px;
 }

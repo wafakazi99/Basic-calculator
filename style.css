@@ -1,10 +1,11 @@
 html,body{
     height: 100%;
     width: 100%;
+    background-color: rgb(125, 167, 225);
 }
 .text{
     text-align: center;
-    color: skyblue;
+    color: rgb(27, 54, 94);
 }
 
 .button{
@@ -16,6 +17,7 @@ html,body{
     margin: 10px 10px;
     border-color:2px solid black;
     font-size: large;
+    border-radius:20px;
 }
 .mx-auto{
    margin: auto;
@@ -25,7 +27,7 @@ html,body{
 }
 .bg-red{
     background-color: rgb(255, 0, 255);
-    border-radius: 5px;
+    border-radius: 20px;
 }
 .felx{
    display: flex;
